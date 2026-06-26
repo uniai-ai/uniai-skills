@@ -1,0 +1,23 @@
+{
+  "name": "motherduck",
+  "version": "0.1.0",
+  "description": "MotherDuck / DuckDB data warehouse — query, model, and analyze data via the official MotherDuck MCP, with MotherDuck's official skills.",
+  "author": { "name": "MotherDuck", "url": "https://motherduck.com/" },
+  "homepage": "https://motherduck.com/",
+  "license": "MIT",
+  "keywords": ["motherduck", "duckdb", "data", "sql", "analytics", "warehouse"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "MotherDuck",
+    "shortDescription": "Query & analyze DuckDB/MotherDuck, with official skills",
+    "longDescription": "Connect the official MotherDuck MCP to query, model, and analyze data in MotherDuck and DuckDB (including local files) from UniAI. Bundled with MotherDuck's official skills for querying, dashboards, data modeling, pipelines, and DuckDB SQL.",
+    "developerName": "MotherDuck",
+    "category": "Data",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "websiteURL": "https://motherduck.com/",
+    "brandColor": "#FFC83D",
+    "composerIcon": "./assets/motherduck.png",
+    "logo": "./assets/motherduck.png"
+  }
+}

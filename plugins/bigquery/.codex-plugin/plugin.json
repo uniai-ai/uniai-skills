@@ -1,0 +1,22 @@
+{
+  "name": "bigquery",
+  "version": "0.1.0",
+  "description": "Google BigQuery — query and analyze datasets via the official Google BigQuery MCP.",
+  "author": { "name": "Google", "url": "https://cloud.google.com/bigquery" },
+  "homepage": "https://cloud.google.com/bigquery",
+  "license": "MIT",
+  "keywords": ["bigquery", "google", "data", "sql", "analytics", "warehouse"],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "BigQuery",
+    "shortDescription": "Query & analyze BigQuery datasets (official MCP)",
+    "longDescription": "Connect the official Google BigQuery MCP to list datasets and tables, inspect schemas, and run SQL against your BigQuery data from UniAI — with Google Cloud IAM security and in-place query execution.",
+    "developerName": "Google",
+    "category": "Data",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "websiteURL": "https://cloud.google.com/bigquery",
+    "brandColor": "#4285F4",
+    "composerIcon": "./assets/google.svg",
+    "logo": "./assets/google.svg"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "canva",
+  "version": "0.1.0",
+  "description": "Canva integration — create and edit designs, manage brand assets, search the library, and export via the official Canva MCP.",
+  "author": { "name": "Canva", "url": "https://www.canva.com/" },
+  "homepage": "https://www.canva.com/",
+  "license": "MIT",
+  "keywords": ["canva", "design", "graphics", "social", "presentation", "brand"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Canva",
+    "shortDescription": "Create and edit Canva designs, with official skills",
+    "longDescription": "Connect the official Canva MCP to create and edit designs, pull brand assets, search the content library, and export — driven by the agent. Bundled with Canva's official skills for branded presentations, social-media resizing, and design translation.",
+    "developerName": "Canva",
+    "category": "Design",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "websiteURL": "https://www.canva.com/",
+    "brandColor": "#00C4CC",
+    "composerIcon": "./assets/canva.svg",
+    "logo": "./assets/canva.svg"
+  }
+}

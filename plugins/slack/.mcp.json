@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "slack": {
+      "type": "http",
+      "url": "https://mcp.slack.com/mcp",
+      "note": "Official Slack MCP server. OAuth on first connection; inherits the user's workspace permissions. Read/search/post messages."
+    }
+  }
+}

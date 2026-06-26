@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "heygen": {
+      "type": "http",
+      "url": "https://mcp.heygen.com/mcp/v1/",
+      "note": "Official HeyGen MCP server. OAuth on first connection. Generate AI avatar/spokesperson videos (lip-sync + translation in 175+ languages)."
+    }
+  }
+}

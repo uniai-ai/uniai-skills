@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "runway": {
+      "type": "http",
+      "url": "https://mcp.runway.team",
+      "bearer_token_env_var": "RUNWAYML_API_SECRET",
+      "note": "Official Runway MCP server. Authenticate with a Runway API key (read from RUNWAYML_API_SECRET). Text-to-video / image / audio generation (Gen-4.5, up to 4K)."
+    }
+  }
+}

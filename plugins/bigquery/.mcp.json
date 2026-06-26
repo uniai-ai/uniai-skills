@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "bigquery": {
+      "type": "http",
+      "url": "https://bigquery.googleapis.com/mcp",
+      "note": "Official Google BigQuery MCP server. OAuth (Google Cloud IAM) on first connection; requires a GCP project + BigQuery IAM roles. List datasets/tables, get schema, run SQL."
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "cloudflare": {
+      "type": "http",
+      "url": "https://mcp.cloudflare.com/mcp",
+      "note": "Official Cloudflare API MCP server. OAuth on first connection. Token-efficient Cloudflare API access via docs/search/execute."
+    }
+  }
+}

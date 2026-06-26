@@ -1,0 +1,23 @@
+{
+  "name": "linear",
+  "version": "0.1.0",
+  "description": "Linear integration — find and manage issues, projects, cycles, and documents via the official Linear MCP, with Linear's official skill.",
+  "author": { "name": "Linear", "url": "https://linear.app/" },
+  "homepage": "https://linear.app/",
+  "license": "MIT",
+  "keywords": ["linear", "productivity", "issues", "project-management", "tickets"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Linear",
+    "shortDescription": "Find & manage Linear issues, with official skill",
+    "longDescription": "Connect the official Linear MCP to find and manage issues, projects, cycles, and documents from UniAI. Bundled with Linear's official skill that drives the standard issue-tracking workflow.",
+    "developerName": "Linear",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "websiteURL": "https://linear.app/",
+    "brandColor": "#5E6AD2",
+    "composerIcon": "./assets/linear-icon.svg",
+    "logo": "./assets/linear-icon.svg"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "cloudflare",
+  "version": "0.1.0",
+  "description": "Cloudflare integration — Workers, Durable Objects, and Wrangler build guides plus the official Cloudflare API MCP.",
+  "author": { "name": "Cloudflare", "url": "https://www.cloudflare.com/" },
+  "homepage": "https://www.cloudflare.com/",
+  "license": "MIT",
+  "keywords": ["cloudflare", "dev-tools", "workers", "durable-objects", "wrangler", "edge"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Cloudflare",
+    "shortDescription": "Build on Cloudflare, with official skills & API MCP",
+    "longDescription": "Connect the official Cloudflare API MCP for token-efficient API access (docs/search/execute). Bundled with Cloudflare's official skills for building on Workers, Durable Objects, Agents, the Sandbox SDK, and Wrangler.",
+    "developerName": "Cloudflare",
+    "category": "Developer Tools",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "websiteURL": "https://www.cloudflare.com/",
+    "brandColor": "#F38020",
+    "composerIcon": "./assets/cloudflare-small.svg",
+    "logo": "./assets/cloudflare-small.svg"
+  }
+}

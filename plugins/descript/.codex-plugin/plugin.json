@@ -1,0 +1,22 @@
+{
+  "name": "descript",
+  "version": "0.1.0",
+  "description": "Descript — edit and transcribe audio/video (filler removal, cleanup, captions) via the official Descript MCP.",
+  "author": { "name": "Descript", "url": "https://www.descript.com/" },
+  "homepage": "https://www.descript.com/",
+  "license": "MIT",
+  "keywords": ["descript", "audio", "video", "content", "media", "transcription", "editing"],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Descript",
+    "shortDescription": "Edit & transcribe audio/video (official MCP)",
+    "longDescription": "Connect the official Descript MCP to edit and refine audio/video from UniAI — remove filler words, clean up audio, auto-caption, and transcribe. OAuth sign-in, no local runtime.",
+    "developerName": "Descript",
+    "category": "Content",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "websiteURL": "https://www.descript.com/",
+    "brandColor": "#5B57F0",
+    "composerIcon": "./assets/descript.png",
+    "logo": "./assets/descript.png"
+  }
+}

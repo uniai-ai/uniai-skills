@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "descript": {
+      "type": "http",
+      "url": "https://api.descript.com/v2/mcp",
+      "note": "Official Descript MCP server. OAuth (2.1 + PKCE) on first connection. Edit, transcribe, caption, and clean up audio & video."
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "slack",
+  "version": "0.1.0",
+  "description": "Slack integration — read, search, and post messages across your workspace via the official Slack MCP.",
+  "author": { "name": "Slack", "url": "https://slack.com/" },
+  "homepage": "https://slack.com/",
+  "license": "MIT",
+  "keywords": ["slack", "productivity", "messaging", "communication", "team"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Slack",
+    "shortDescription": "Read, search & post Slack messages, with official skills",
+    "longDescription": "Connect the official Slack MCP to read, search, and post messages across your workspace from UniAI — find a conversation, summarize a channel, or send an update. Bundled with Slack's official skills for channel summaries, daily digests, notification triage, and message drafting.",
+    "developerName": "Slack",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "websiteURL": "https://slack.com/",
+    "brandColor": "#611F69",
+    "composerIcon": "./assets/slack.png",
+    "logo": "./assets/slack.png"
+  }
+}

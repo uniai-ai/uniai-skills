@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "remotion": {
+      "command": "npx",
+      "args": ["-y", "@remotion/mcp"],
+      "note": "Official Remotion MCP (runs locally via npx; requires Node.js 16+ on your machine). Build React-based videos and motion graphics."
+    }
+  }
+}

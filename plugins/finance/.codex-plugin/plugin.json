@@ -1,0 +1,21 @@
+{
+  "name": "finance",
+  "version": "0.1.0",
+  "description": "Finance analysis — budget variance, cohort & churn analysis, sales forecasting, and pricing strategy. Not financial advice.",
+  "author": { "name": "Mohit Aggarwal", "url": "https://github.com/mohitagw15856/pm-claude-skills" },
+  "homepage": "https://github.com/mohitagw15856/pm-claude-skills",
+  "license": "MIT",
+  "keywords": ["finance", "budget", "cohort", "churn", "forecasting", "pricing"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Finance",
+    "shortDescription": "Budget variance, cohort/churn, forecasting, pricing",
+    "longDescription": "Curated finance & analytics skills: analyze budget variance, run cohort and churn analysis, build sales forecasts, and shape pricing strategy. Sourced from the MIT-licensed pm-claude-skills collection. Not financial advice.",
+    "developerName": "UniAI (curated)",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "brandColor": "#059669",
+    "composerIcon": "./assets/finance.svg",
+    "logo": "./assets/finance.svg"
+  }
+}
