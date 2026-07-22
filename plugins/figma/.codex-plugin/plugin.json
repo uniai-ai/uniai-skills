@@ -1,0 +1,23 @@
+{
+  "name": "figma",
+  "version": "0.1.0",
+  "description": "Figma integration — read design context, turn frames into code, and create or edit designs via the official Figma Dev Mode MCP, with Figma's official skills.",
+  "author": { "name": "Figma", "url": "https://www.figma.com/" },
+  "homepage": "https://www.figma.com/",
+  "license": "MIT",
+  "keywords": ["figma", "design", "ui", "ux", "design-to-code"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Figma",
+    "shortDescription": "Design-to-code + edit Figma, with official skills",
+    "longDescription": "Connect the official Figma Dev Mode MCP server to read design context (layout, variables, components), generate accurate code, and create or edit designs directly in your Figma account (use_figma). Bundled with Figma's official skills that guide each workflow.",
+    "developerName": "Figma",
+    "category": "Design",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "websiteURL": "https://www.figma.com/",
+    "brandColor": "#1ABCFE",
+    "composerIcon": "./assets/figma.png",
+    "logo": "./assets/figma.png"
+  }
+}

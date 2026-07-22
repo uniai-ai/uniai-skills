@@ -1,0 +1,21 @@
+{
+  "name": "legal-docs",
+  "version": "0.1.0",
+  "description": "Legal & official document drafting — contract review, NDA analysis, legal briefs, and compliance checklists. Curated skills (not legal advice).",
+  "author": { "name": "Mohit Aggarwal", "url": "https://github.com/mohitagw15856/pm-claude-skills" },
+  "homepage": "https://github.com/mohitagw15856/pm-claude-skills",
+  "license": "MIT",
+  "keywords": ["legal", "contract", "nda", "compliance", "documents", "drafting"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Legal & Docs",
+    "shortDescription": "Contract review, NDA analysis, legal briefs & compliance",
+    "longDescription": "Curated document-drafting skills for legal and official work: review contracts and flag risks, analyze NDAs clause by clause, draft legal briefs / memos, and run compliance checklists. Sourced from the MIT-licensed pm-claude-skills collection (skills carry 'not legal advice' disclaimers).",
+    "developerName": "UniAI (curated)",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "brandColor": "#6B7280",
+    "composerIcon": "./assets/legal-docs.svg",
+    "logo": "./assets/legal-docs.svg"
+  }
+}

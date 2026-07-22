@@ -1,0 +1,21 @@
+{
+  "name": "compliance",
+  "version": "0.1.0",
+  "description": "Compliance audit prep — SOC 2, ISO 27001, GDPR, EU AI Act, and FDA QSR readiness checklists.",
+  "author": { "name": "Alireza Rezvani", "url": "https://github.com/alirezarezvani/claude-skills" },
+  "homepage": "https://github.com/alirezarezvani/claude-skills",
+  "license": "MIT",
+  "keywords": ["compliance", "soc2", "iso27001", "gdpr", "ai-act", "audit"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Compliance",
+    "shortDescription": "SOC 2 / ISO 27001 / GDPR / EU AI Act audit prep",
+    "longDescription": "Curated compliance skills: prepare for SOC 2, ISO 27001, GDPR, EU AI Act, and FDA QSR audits with structured readiness checklists. Sourced from the MIT-licensed claude-skills collection. Not legal advice.",
+    "developerName": "UniAI (curated)",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "brandColor": "#2563EB",
+    "composerIcon": "./assets/compliance.svg",
+    "logo": "./assets/compliance.svg"
+  }
+}

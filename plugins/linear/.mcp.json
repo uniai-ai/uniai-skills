@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "linear": {
+      "type": "http",
+      "url": "https://mcp.linear.app/mcp",
+      "note": "Official Linear MCP server. OAuth on first connection. Find and manage issues, projects, cycles, and documents."
+    }
+  }
+}

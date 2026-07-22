@@ -1,0 +1,21 @@
+{
+  "name": "engineering",
+  "version": "0.1.0",
+  "description": "Software engineering methodology — TDD, systematic debugging, code review, planning, git worktrees, and subagent-driven development.",
+  "author": { "name": "Jesse Vincent", "url": "https://github.com/obra/superpowers" },
+  "homepage": "https://github.com/obra/superpowers",
+  "license": "MIT",
+  "keywords": ["engineering", "tdd", "debugging", "code-review", "planning", "workflow"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Engineering",
+    "shortDescription": "TDD, debugging, code review, planning workflows",
+    "longDescription": "Best-in-class software engineering process skills: test-driven development, systematic debugging, writing & executing plans, code review (giving and receiving), git worktrees, and subagent-driven development. Sourced from the MIT-licensed superpowers collection.",
+    "developerName": "UniAI (curated)",
+    "category": "Developer Tools",
+    "capabilities": ["Read", "Write"],
+    "brandColor": "#0EA5E9",
+    "composerIcon": "./assets/engineering.svg",
+    "logo": "./assets/engineering.svg"
+  }
+}

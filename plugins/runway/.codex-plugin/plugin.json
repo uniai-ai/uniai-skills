@@ -1,0 +1,23 @@
+{
+  "name": "runway",
+  "version": "0.1.0",
+  "description": "Runway — generate AI video, images, and audio (Gen-4.5, up to 4K) via the official Runway MCP, with Runway's official skills.",
+  "author": { "name": "Runway", "url": "https://runwayml.com/" },
+  "homepage": "https://runwayml.com/",
+  "license": "MIT",
+  "keywords": ["runway", "video", "image", "audio", "content", "media", "generation"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Runway",
+    "shortDescription": "AI video/image/audio generation, with official skills",
+    "longDescription": "Connect the official Runway MCP to generate AI video, images, and audio (Gen-4.5, up to 4K) from UniAI. Authenticate with a Runway API key. Bundled with Runway's official skills for generation and integration.",
+    "developerName": "Runway",
+    "category": "Content",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "websiteURL": "https://runwayml.com/",
+    "brandColor": "#111111",
+    "composerIcon": "./assets/runway.png",
+    "logo": "./assets/runway.png"
+  }
+}

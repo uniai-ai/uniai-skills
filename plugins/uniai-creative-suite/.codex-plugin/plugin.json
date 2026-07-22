@@ -1,0 +1,17 @@
+{
+  "name": "uniai-creative-suite",
+  "version": "1.0.0",
+  "description": "UniAI Creative Suite — image & video generation, transcription, and professional documents (Word, Excel, PowerPoint, PDF) in one bundle.",
+  "author": { "name": "UniAI" },
+  "license": "MIT",
+  "keywords": ["image", "video", "stt", "canvas", "creative", "media", "document", "word", "excel", "spreadsheet", "powerpoint", "pdf"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "UniAI Creative Suite",
+    "shortDescription": "Images, video & professional documents",
+    "longDescription": "Generate images and videos, transcribe speech, and build professional, rendered-and-verified documents — Word (.docx), Excel (.xlsx), PowerPoint (.pptx) and PDF — plus image transforms (line-art, depth maps, photo restore). Models are chosen by the platform automatically.",
+    "developerName": "UniAI",
+    "category": "Creative",
+    "capabilities": ["Write"]
+  }
+}

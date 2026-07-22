@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "figma": {
+      "type": "http",
+      "url": "https://mcp.figma.com/mcp",
+      "note": "Official Figma Dev Mode MCP server. OAuth on first connection. Provides design context + code generation for the selected frame/component."
+    }
+  }
+}

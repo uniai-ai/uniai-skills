@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "motherduck": {
+      "type": "http",
+      "url": "https://api.motherduck.com/mcp",
+      "note": "Official MotherDuck MCP server. OAuth on first connection (or a MotherDuck token). Query, model, and analyze MotherDuck + DuckDB data (including local files)."
+    }
+  }
+}

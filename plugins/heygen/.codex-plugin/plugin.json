@@ -1,0 +1,23 @@
+{
+  "name": "heygen",
+  "version": "0.1.0",
+  "description": "HeyGen AI avatar videos — generate spokesperson/avatar videos with lip-sync and translation via the official HeyGen MCP, with HeyGen's official skills.",
+  "author": { "name": "HeyGen", "url": "https://www.heygen.com/" },
+  "homepage": "https://www.heygen.com/",
+  "license": "MIT",
+  "keywords": ["heygen", "video", "avatar", "content", "media", "translation"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "HeyGen",
+    "shortDescription": "AI avatar/spokesperson videos, with official skills",
+    "longDescription": "Connect the official HeyGen MCP to generate AI avatar/spokesperson videos with lip-sync and translation in 175+ languages from UniAI. Bundled with HeyGen's official skills (avatar, translate, video pipeline).",
+    "developerName": "HeyGen",
+    "category": "Content",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "websiteURL": "https://www.heygen.com/",
+    "brandColor": "#7C3AED",
+    "composerIcon": "./assets/heygen.png",
+    "logo": "./assets/heygen.png"
+  }
+}

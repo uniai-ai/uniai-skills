@@ -1,0 +1,134 @@
+{
+  "name": "uniai",
+  "interface": {
+    "displayName": "UniAI"
+  },
+  "plugins": [
+    {
+      "name": "uniai-creative-suite",
+      "source": {
+        "source": "local",
+        "path": "./plugins/uniai-creative-suite"
+      },
+      "policy": {
+        "installation": "INSTALLED_BY_DEFAULT",
+        "authentication": "ON_USE"
+      },
+      "category": "Creative"
+    },
+    {
+      "name": "figma",
+      "source": { "source": "local", "path": "./plugins/figma" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_USE" },
+      "category": "Design"
+    },
+    {
+      "name": "legal-docs",
+      "source": { "source": "local", "path": "./plugins/legal-docs" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_USE" },
+      "category": "Productivity"
+    },
+    {
+      "name": "research-academic",
+      "source": { "source": "local", "path": "./plugins/research-academic" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_USE" },
+      "category": "Research"
+    },
+    {
+      "name": "finance",
+      "source": { "source": "local", "path": "./plugins/finance" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_USE" },
+      "category": "Productivity"
+    },
+    {
+      "name": "compliance",
+      "source": { "source": "local", "path": "./plugins/compliance" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_USE" },
+      "category": "Productivity"
+    },
+    {
+      "name": "marketing",
+      "source": { "source": "local", "path": "./plugins/marketing" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_USE" },
+      "category": "Productivity"
+    },
+    {
+      "name": "engineering",
+      "source": { "source": "local", "path": "./plugins/engineering" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_USE" },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "canva",
+      "source": { "source": "local", "path": "./plugins/canva" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_USE" },
+      "category": "Design"
+    },
+    {
+      "name": "notion",
+      "source": { "source": "local", "path": "./plugins/notion" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_USE" },
+      "category": "Productivity"
+    },
+    {
+      "name": "slack",
+      "source": { "source": "local", "path": "./plugins/slack" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_USE" },
+      "category": "Productivity"
+    },
+    {
+      "name": "linear",
+      "source": { "source": "local", "path": "./plugins/linear" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_USE" },
+      "category": "Productivity"
+    },
+    {
+      "name": "github",
+      "source": { "source": "local", "path": "./plugins/github" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_USE" },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cloudflare",
+      "source": { "source": "local", "path": "./plugins/cloudflare" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_USE" },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "motherduck",
+      "source": { "source": "local", "path": "./plugins/motherduck" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_USE" },
+      "category": "Data"
+    },
+    {
+      "name": "bigquery",
+      "source": { "source": "local", "path": "./plugins/bigquery" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_USE" },
+      "category": "Data"
+    },
+    {
+      "name": "heygen",
+      "source": { "source": "local", "path": "./plugins/heygen" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_USE" },
+      "category": "Content"
+    },
+    {
+      "name": "descript",
+      "source": { "source": "local", "path": "./plugins/descript" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_USE" },
+      "category": "Content"
+    },
+    {
+      "name": "runway",
+      "source": { "source": "local", "path": "./plugins/runway" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_USE" },
+      "category": "Content"
+    },
+    {
+      "name": "remotion",
+      "source": { "source": "local", "path": "./plugins/remotion" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_USE" },
+      "category": "Content"
+    }
+  ]
+}

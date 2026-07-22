@@ -1,0 +1,21 @@
+{
+  "name": "marketing",
+  "version": "0.1.0",
+  "description": "Marketing toolkit — email sequences, product-marketing strategy, A/B test setup, content humanizing, and referral programs.",
+  "author": { "name": "Alireza Rezvani", "url": "https://github.com/alirezarezvani/claude-skills" },
+  "homepage": "https://github.com/alirezarezvani/claude-skills",
+  "license": "MIT",
+  "keywords": ["marketing", "email", "ab-test", "content", "growth", "referral"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Marketing",
+    "shortDescription": "Email sequences, PMM strategy, A/B tests, content",
+    "longDescription": "Curated marketing skills: write email sequences, shape product-marketing strategy, set up A/B tests, humanize content, and design referral programs. Sourced from the MIT-licensed claude-skills collection.",
+    "developerName": "UniAI (curated)",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "brandColor": "#EA580C",
+    "composerIcon": "./assets/marketing.svg",
+    "logo": "./assets/marketing.svg"
+  }
+}

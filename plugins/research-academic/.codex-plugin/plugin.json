@@ -1,0 +1,21 @@
+{
+  "name": "research-academic",
+  "version": "0.1.0",
+  "description": "Academic & research toolkit — literature reviews, grant proposals, patent search, and structured research workflows.",
+  "author": { "name": "Alireza Rezvani", "url": "https://github.com/alirezarezvani/claude-skills" },
+  "homepage": "https://github.com/alirezarezvani/claude-skills",
+  "license": "MIT",
+  "keywords": ["research", "academic", "literature-review", "grants", "patent", "science"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Research & Academic",
+    "shortDescription": "Literature review, grants, patents, research workflows",
+    "longDescription": "Curated skills for academic and research work: run literature reviews, draft grant proposals, search and analyze patents, and structure research. Sourced from the MIT-licensed claude-skills collection.",
+    "developerName": "UniAI (curated)",
+    "category": "Research",
+    "capabilities": ["Read", "Write"],
+    "brandColor": "#7C3AED",
+    "composerIcon": "./assets/research-academic.svg",
+    "logo": "./assets/research-academic.svg"
+  }
+}

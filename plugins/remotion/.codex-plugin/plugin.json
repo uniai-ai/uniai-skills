@@ -1,0 +1,23 @@
+{
+  "name": "remotion",
+  "version": "0.1.0",
+  "description": "Remotion — build videos and motion graphics programmatically with React via the official Remotion MCP, with Remotion's official skill. Requires Node.js.",
+  "author": { "name": "Remotion", "url": "https://www.remotion.dev/" },
+  "homepage": "https://www.remotion.dev/",
+  "license": "MIT",
+  "keywords": ["remotion", "video", "motion-graphics", "react", "content", "media"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Remotion",
+    "shortDescription": "Programmatic video from React code, with official skill",
+    "longDescription": "Connect the official Remotion MCP to build videos and motion graphics programmatically with React from UniAI — frame-perfect animation, sequences, audio, and captions. Bundled with Remotion's official best-practices skill. Runs locally and requires Node.js 16+ on your machine.",
+    "developerName": "Remotion",
+    "category": "Content",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "websiteURL": "https://www.remotion.dev/",
+    "brandColor": "#0B84F3",
+    "composerIcon": "./assets/remotion.png",
+    "logo": "./assets/remotion.png"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "github": {
+      "type": "http",
+      "url": "https://api.githubcopilot.com/mcp/",
+      "bearer_token_env_var": "GITHUB_MCP_TOKEN",
+      "note": "Official GitHub MCP server. Authenticate with a Personal Access Token (read from GITHUB_MCP_TOKEN). PR/issue/CI/repo operations."
+    }
+  }
+}
